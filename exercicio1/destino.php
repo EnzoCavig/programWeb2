@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
             margin: 0;
             padding: 20px;
         }
+
         .data-container {
             background-color: #fff;
             padding: 20px;
@@ -18,26 +20,31 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
+
         .data-container h2 {
             margin-bottom: 20px;
             font-size: 24px;
             color: #333;
         }
+
         .data-container p {
             margin: 10px 0;
             color: #555;
         }
+
         .header-container {
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         .header-container h2 {
             margin-bottom: 20px;
             font-size: 24px;
             color: #333;
         }
+
         .header-container pre {
             background-color: #f8f9fa;
             padding: 10px;
@@ -47,6 +54,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="data-container">
         <h2>Dados Recebidos</h2>
@@ -72,4 +80,5 @@ print_r(apache_request_headers());
         <p><strong>Método Utilizado:</strong> <?php echo $_SERVER['REQUEST_METHOD']; ?></p>
     </div>
 </body>
+
 </html>
