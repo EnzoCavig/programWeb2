@@ -1,0 +1,17 @@
+{
+    "name": "enzoc/exercicio3",
+    "autoload": {
+        "psr-4": {
+            "Enzoc\\Exercicio3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enzo Caviglia",
+            "email": "enzo.romani@unidavi.edu.br"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.24"
+    }
+}
